@@ -4,9 +4,21 @@
     Welc  {{ title }}!
  
   </h1>
+<a routerLink="/">Home</a>|
+<a routerLink="/user">User</a>|
+<a routerLink="/parent">Parent</a>|
+<a routerLink="/employee">Employee</a>|
+<a [routerLink]="['employee',100]">Employee100</a>|
+<a [routerLink]="['employee','sanu']">Employeesanu</a>
+
+
+
+
+
+
  <!--  <app-employee></app-employee>     -->
 
- <app-parent></app-parent>
+
 <router-outlet></router-outlet>
 <!--
 <input type="text" [(ngModel)]="name">

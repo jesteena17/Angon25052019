@@ -7,13 +7,17 @@ import { EmployeeComponent } from './employee/employee.component';
 import {FormsModule} from '@angular/forms';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { HomeComponent } from './home/home.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    HomeComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
